@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.aws-sam/
+samconfig.toml
+report.html
+report.json
+.DS_Store
