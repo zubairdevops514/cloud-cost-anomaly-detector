@@ -1,0 +1,212 @@
+{
+  "method": "rolling-median-mad",
+  "currency": "USD",
+  "config": {
+    "window_days": 7,
+    "min_history": 7,
+    "min_increase_usd": "10",
+    "z_threshold": 3.5
+  },
+  "results": [
+    {
+      "date": "2026-10-01",
+      "service": "Amazon EC2",
+      "cost_usd": "40",
+      "history_days": 0,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-01",
+      "service": "Amazon S3",
+      "cost_usd": "5",
+      "history_days": 0,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-02",
+      "service": "Amazon EC2",
+      "cost_usd": "41",
+      "history_days": 1,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-02",
+      "service": "Amazon S3",
+      "cost_usd": "5.1",
+      "history_days": 1,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-03",
+      "service": "Amazon EC2",
+      "cost_usd": "39",
+      "history_days": 2,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-03",
+      "service": "Amazon S3",
+      "cost_usd": "4.9",
+      "history_days": 2,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-04",
+      "service": "Amazon EC2",
+      "cost_usd": "40",
+      "history_days": 3,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-04",
+      "service": "Amazon S3",
+      "cost_usd": "5",
+      "history_days": 3,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-05",
+      "service": "Amazon EC2",
+      "cost_usd": "42",
+      "history_days": 4,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-05",
+      "service": "Amazon S3",
+      "cost_usd": "5.2",
+      "history_days": 4,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-06",
+      "service": "Amazon EC2",
+      "cost_usd": "40",
+      "history_days": 5,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-06",
+      "service": "Amazon S3",
+      "cost_usd": "5",
+      "history_days": 5,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-07",
+      "service": "Amazon EC2",
+      "cost_usd": "41",
+      "history_days": 6,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-07",
+      "service": "Amazon S3",
+      "cost_usd": "5.1",
+      "history_days": 6,
+      "status": "insufficient_history",
+      "baseline_usd": null,
+      "increase_usd": null,
+      "robust_z": null
+    },
+    {
+      "date": "2026-10-08",
+      "service": "Amazon EC2",
+      "cost_usd": "125",
+      "history_days": 7,
+      "status": "anomaly",
+      "baseline_usd": "40",
+      "increase_usd": "85",
+      "robust_z": 57.333
+    },
+    {
+      "date": "2026-10-08",
+      "service": "Amazon S3",
+      "cost_usd": "5.2",
+      "history_days": 7,
+      "status": "normal",
+      "baseline_usd": "5",
+      "increase_usd": "0.2",
+      "robust_z": 1.349
+    },
+    {
+      "date": "2026-10-09",
+      "service": "Amazon EC2",
+      "cost_usd": "42",
+      "history_days": 7,
+      "status": "normal",
+      "baseline_usd": "41",
+      "increase_usd": "1",
+      "robust_z": 0.674
+    },
+    {
+      "date": "2026-10-09",
+      "service": "Amazon S3",
+      "cost_usd": "5.3",
+      "history_days": 7,
+      "status": "normal",
+      "baseline_usd": "5.1",
+      "increase_usd": "0.2",
+      "robust_z": 1.349
+    },
+    {
+      "date": "2026-10-10",
+      "service": "Amazon EC2",
+      "cost_usd": "41",
+      "history_days": 7,
+      "status": "normal",
+      "baseline_usd": "41",
+      "increase_usd": "0",
+      "robust_z": 0.0
+    },
+    {
+      "date": "2026-10-10",
+      "service": "Amazon S3",
+      "cost_usd": "5.1",
+      "history_days": 7,
+      "status": "normal",
+      "baseline_usd": "5.1",
+      "increase_usd": "0.0",
+      "robust_z": 0.0
+    }
+  ]
+}
